@@ -154,7 +154,7 @@
  			 private="true" version="false" 
  			 windowtitle="Javadocs: ${libraryName}">
  		<taglet name="ExampleTaglet" path="resources/code" />
- 		<fileset dir="${src}" defaultexcludes="no">
+ 		<fileset dir="${src}" defaultexcludes="yes">
  			<!-- #### (9) add packages to be added to reference. #### -->
 			<include name="**/*"/>
 		</fileset>
